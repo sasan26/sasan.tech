@@ -1,0 +1,362 @@
+body, .top-header{
+    background-color: #e6e6e6;
+}
+.top-header{
+    height: 3rem;
+}
+.ptop{
+    padding-top: 9rem;
+}
+.sas-title{
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+.navbar-brand img{
+    width:6rem;
+}
+.bg-light {
+    background-color: #3f8a7f!important;
+}
+
+.border-light{
+   border-color: #d1e0e0!important;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.navbar-nav {
+    align-items: center;
+  justify-content: center;
+}
+
+.rotright{
+   /*float: left;*/
+  -ms-transform: rotate(7deg); /* IE 9 */
+  -webkit-transform: rotate(7deg); /* Safari */
+  transform: rotate(7deg);
+  width:30rem;
+}
+
+.about-img{
+    box-shadow: 5px 5px 10px;
+    border-radius: 1% 20%;
+}
+
+.shadow-img{
+    box-shadow: 2px 2px 2px #999;
+}
+
+
+.shadow-sm {
+    box-shadow: 1rem .5rem .5rem rgba(0,0,0,0.9)!important;
+}
+
+.footer-icons i{
+    margin-right: 1rem !important;
+     margin-left: 1rem !important;
+     font-size: 1.2rem;
+}
+.footer-icons{
+    text-align: center !important;
+}
+
+.footer-icons a {
+    color: #000;
+}
+.footer-icons a:hover{
+    color: #660000;
+}
+
+.fixed-top2 {
+    position: fixed;
+    top: 3rem;
+    right: 0;
+    left: 0;
+    z-index: 1040;
+}
+
+.card-img-overlay{
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(63, 138, 127, 0.9);
+}
+
+.card:hover .card-img-overlay {
+  opacity: 1;
+}
+
+.pre hr{
+    width: 80%;
+    
+}
+
+.pre a{
+    text-decoration: none;
+    color: #3f8a7f;
+    font-weight: 700;
+}
+.pre a:hover{
+    color: #285750;
+}
+
+.skill-list{
+    width: 80%;
+}
+.list-group-item, .exp-card{
+    background-color: #e6e6e6;
+}
+.education-list, .certificate-list {
+    width: 80%;
+}
+.education-list p, .education-list small, .certificate-list p, .certificate-list small{
+    font-weight: 400;
+}
+.education-list p, .education-list h5, .certificate-list p, .certificate-list h5{
+    color: #000;
+}
+.exp-card .card-text{
+    color: #6c757d;
+}
+.exp-card{
+    width: 80%;
+    margin-bottom: 5px;
+}
+.resume-header {
+    width: 80%;
+}
+.resume-header .items{
+    background-color: #fff;
+}
+.resume-header a{
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.secound-row{
+    background-color: #cce6ff;
+}
+.first-row{
+    background-color: #c2d6d6;
+}
+
+.btn-sm {
+    border-radius: 0 !important;
+}
+
+.runner-banner{
+    width: 40%;
+}
+.runner-top-caption{
+    width: 50%;
+    margin-left: 25%;
+}
+.title-icon{
+    border-radius:50%;
+    width: 5rem;
+}
+.proj-title{
+    font-size: 4rem;
+}
+.chart {
+    width: 100%; 
+    min-height: 450px;
+  }
+  .research-tb td, .tb-th{
+      text-align: center !important;
+      vertical-align: middle !important;
+  }
+  .fa-check-circle{
+      color: #669999;
+      font-size: 1.2rem;
+  }
+  .hifi-btn{
+    /* width: 10rem; */
+    border-radius: 50px !important;
+  }
+
+  .certificate-img{
+      width:50%;
+      position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  }
+
+#hifi-proto{
+    width: 1200px;
+    height: 675px;
+}
+
+.btn-outline-success.disabled, .btn-outline-success:disabled {
+    color: #ccc;
+    border: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1025px){
+    .mw80{max-width: 80% !important;}
+    .mw70{max-width: 70% !important;}
+    .mw60{max-width: 60% !important;}
+    .mw50{max-width: 50% !important;}
+    .al-right{float:right;}
+    .al-left{float:left;}
+
+    .hidden-lg{
+        display: none !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:769px){
+    .download-btn{
+        position: fixed;
+        top: 30%;
+        right: 10%;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .footer-icons i{
+        font-size: 1.4rem;
+    }
+   
+    #mobilenav .nav-item{
+        width: 100%;
+        border: 1px solid #3f8a7f;
+        text-align: center;
+        background-color: #669999;
+    }
+    .fixed-top span{
+        font-size: 0.9rem;
+    }
+    .about-img{
+        width: 80%;
+    }
+    .skill-list{
+        font-size: 0.8rem;
+        width: 100%;
+    }
+    .pre hr{
+        width: 100%;
+    
+    }
+    .education-list, .exp-card, .certificate-list {
+        width: 100%;
+    }
+    .education-list h5, .certificate-list h5{
+       font-size: 0.9rem;
+       font-weight: 900;
+    }
+    .education-list p{
+       font-size: 0.85rem;
+       font-weight: 600;
+    }
+    .education-list small{
+       font-size: 0.8rem;
+    }
+    .certificate-list small{
+        font-size: 0.7rem;
+    }.certificate-list p {
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    .resume-header {
+        width: 100%;
+    }
+    .runner-banner{
+        width: 80%;
+    }
+    .runner-top-caption{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .hidden-md{
+        display: none !important;
+    }
+
+}
+
+@media only screen and (max-width:414px){
+
+    .card-text{
+        font-size: 0.7rem;
+    }
+    
+     .portfolio .card-text{
+        line-height: 0.7;
+    }
+    
+    .card-title{
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+    .runner-banner{
+        width: 100%;
+    }
+    .runner-top-caption{
+        width: 94%;
+        margin-left: 4%;
+    }
+    .research-tb{
+        width: fit-content !important;
+        font-size: 0.6rem;
+    }
+
+    .fa-check-circle{
+        font-size: 1.5rem !important;
+    }
+    .hifi-btn{
+       font-size: 0.9rem;     
+    }
+    .hidden-sm{
+        display: none !important;
+    }
+    .proj-title{
+        font-size: 3rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
